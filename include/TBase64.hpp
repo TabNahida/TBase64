@@ -1,6 +1,8 @@
 #ifndef TBASE64_HPP
 #define TBASE64_HPP
 
-#include <xsimd/xsimd.hpp>
+#include <TString.hpp>
+
+TString Base64Encoder(TString data);
 
 #endif
